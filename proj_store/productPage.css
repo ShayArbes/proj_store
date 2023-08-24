@@ -1,0 +1,47 @@
+
+
+  #pProducts {
+    text-align: center;
+    font-size: 8vh;
+    font-weight: 600;
+    padding: 20px 240px 20px 20px;
+    
+  }
+  #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #iconsNav>*{
+    padding: 20px;
+  }
+
+  #iconsNav>*:hover{
+    cursor: pointer;
+    background:#f9f5eb;
+    border-radius: 50%;
+  }
+  section{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .divCard{
+    margin-top: 6%;
+    display: flex;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+.imgProd{
+  border-radius: 20px 0px 0px 20px;
+  width: 20vw;
+}
+.divData{
+  padding: 10px 10px 5px 20px;
+}
+.divData>*{
+  margin: 5px;
+}
+
+ 

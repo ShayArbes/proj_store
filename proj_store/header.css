@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  body {
+    background: #f5ebeb;
+  
+  }
+#head {
+    display: flex;
+    background: #ffdecb;
+    padding: 7px 45px;
+    justify-content: space-between;
+    align-items: center;
+    color: #4d4d4d;
+    height: 2vh;
+  }
+  #iconsHeader {
+    display: flex;
+    width: 5vw;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+  #iconsHeader .material-icons:hover {
+    font-size: 27px;
+  }

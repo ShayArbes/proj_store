@@ -1,0 +1,124 @@
+
+
+nav {
+  background: #ffbf9b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#categories button {
+  padding: 8px 28px;
+  margin: 10px;
+  border-radius: 17px;
+  border: 1px solid #4d4d4d;
+  color: #4d4d4d;
+  background: none;
+  font-size: 16px;
+}
+#categories button:hover {
+  background: #ffdecb;
+  cursor: pointer;
+}
+#categories {
+  display: flex;
+}
+#inputSearch {
+  display: flex;
+  border-radius: 30%;
+}
+#inputSearch input {
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  width: 14vw;
+}
+#inputSearch button {
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+}
+#inputSearch button:hover {
+  background: #d9d9d9;
+}
+#inputSearch input[placeholder] {
+  padding-left: 20px;
+}
+#pProducts {
+  text-align: center;
+  font-size: 8vh;
+  font-weight: 600;
+  padding: 20px;
+}
+#section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 66vh;
+}
+.divCard {
+  width: 13vw;
+  background: #ffdecb;
+  margin: 28px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.39);
+}
+.imgProd {
+  width: 13vw;
+  border-radius: 20px 20px 0px 0px;
+}
+.titleProducts {
+  padding: 15px;
+  font-weight: 600;
+}
+
+.hr {
+  width: 80%;
+  margin-left: 10%;
+}
+.divQuantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divQuantity > * {
+  padding: 5px;
+  border-radius: 50%;
+}
+.exposure_plus_1:hover ,.exposure_neg_1:hover {
+  background: #f9f5eb;
+  cursor: pointer;
+}
+.quantity {
+  margin: 8px 10px 8px 10px;
+  padding: 6px 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: #ffbf9b;
+}
+.card-icons{
+  margin: 8px 5px 8px 5px;
+}
+.card-icons:hover{
+
+  border-radius: 50%;
+  background: #f9f5eb;
+  cursor: pointer;
+}
+
+.divIconsCards {
+  padding: 13px;
+}
+footer {
+  display: flex;
+  background: #4d4d4d;
+  justify-content: center;
+  align-items: center;
+  color: #d9d9d9;
+}
+.footer {
+  padding: 20px 10px 20px 10px;
+}

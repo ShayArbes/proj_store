@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="addProducts.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="head">
+        <div id="pHeader">
+          <p>Inventory Management</p>
+        </div>
+        <div id="iconsHeader">
+          <a href="index.html"><i class="Small material-icons">home</i></a>
+          <a href="addProducts.html"
+            ><i class="Small material-icons">add_circle_outline</i></a
+          >
+        </div>
+      </div>
+    </header>
+    <section id="section">
+        <div id="divSection">
+      <div id="headTitle">
+        <div id="iconsNav">
+          <i id="back" class="Small material-icons">keyboard_backspace</i>
+        </div>
+        <div><h1>Add New Product</h1></div>
+        <div></div>
+      </div>
+      <form action="index.html" >
+          <label for="title">title</label>
+          <input type="text" id="title" name="title" />
+        <label for="category">category</label>
+        <input type="text" id="category" name="category" />
+        <label for="Price">Price</label>
+        <input type="text" id="Price" name="Price" />
+        <label for="Image">Image URL</label>
+        <input type="text" id="Image" name="Image" />
+        <label for="quantity">Quantity</label>
+        <input type="text" id="quantity" name="quantity" />
+        <label for="Description">Description</label>
+      
+        <textarea id="Description" name="Description"></textarea>
+        <button id="butAdd">ADD</button>
+    </form>
+      <div></div>
+    </div>
+    </section>
+    <script src="addProducts.js"></script>
+  </body>
+</html>
